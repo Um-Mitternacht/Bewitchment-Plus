@@ -51,7 +51,6 @@ repositories {
         name = "Conditional Crafting"
         url = "https://ytg1234.github.io/maven"
     }
-
     maven {
         name = "dblsaiko"
         url = "https://maven.dblsaiko.net/"
@@ -64,17 +63,16 @@ repositories {
         name = "CurseForge"
         url = "https://minecraft.curseforge.com/api/maven"
     }
-
-    maven {
-        name = "jitpack"
-        url = "https://jitpack.io"
-    }
     maven {
         name "requiem"
         url "https://dl.bintray.com/ladysnake/mods"
     }
     maven {
         url 'https://repo.repsy.io/mvn/gandiber/geckolib'
+    }
+    maven {
+        name = "jitpack"
+        url = "https://jitpack.io"
     }
 }
 
